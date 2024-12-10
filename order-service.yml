@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    topic:
+      name: order_topics
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orderdb
+    username: postgres
+    password: postgres123
+server:
+  port: 8080

@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    topic:
+      name: stock_topics
+  datasource:
+    url: jdbc:postgresql://localhost:5432/stockdb
+    username: postgres
+    password: postgres123
+server:
+  port: 8081

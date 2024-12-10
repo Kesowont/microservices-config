@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    topic:
+      name: email_topics
+server:
+  port: 8082
